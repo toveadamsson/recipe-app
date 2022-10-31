@@ -7,7 +7,7 @@ const Recipe = ({ title, image, ingredients }) => {
   return (
     <div className={style.recipe}>
       <h1 >{title}</h1>
-      {/* <p>{calories}</p> */}
+{/* hello */}
       <ol className={style.list}>
         {ingredients.map((ingredient) => (
           <li>{ingredient.text}</li>
